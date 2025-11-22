@@ -21,3 +21,15 @@ docker start infra-database-1
 1 - Banco de dados
 2 - Projeto
 3 - Testes
+
+#Onde começa?
+Controller -> Model -> Controller -> View
+Controller coordenam operações entre um ou mais models, e as views retornam os dados para o cliente.
+
+#Porque criar um model?
+Reaproveitamento de Código.
+
+#Querys
+Sem parametros.
+Parametros fixos.
+Parametros dinamicos.
